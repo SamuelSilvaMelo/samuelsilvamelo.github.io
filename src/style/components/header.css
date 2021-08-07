@@ -1,0 +1,30 @@
+.main-header {
+  background-color: #132958;
+  height: 80px;
+  padding: 0 100px;
+}
+
+.nav-header {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.logo-anchor img {
+  margin: 0 5px;
+  width: 70px;
+}
+
+.logo-anchor {
+  flex-grow: 1;
+  font-size: 36px;
+  margin: 0;
+}
+
+.about-anchor, .skills-anchor, .projects-anchor, .contact-anchor {
+  color: #a38944;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 45px;
+  text-decoration: none;
+}
