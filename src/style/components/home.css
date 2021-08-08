@@ -1,0 +1,27 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #15161A;
+  color: white;
+  height: 100vh;
+  padding: 0 100px;
+  background-image: url('../../img/minimalism-plane-ot-3840x2160.jpg');
+  background-size: cover;
+}
+
+.welcome-page h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 84px;
+  color: #22369b;
+}
+
+.welcome-page h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  color: #0f081a;
+}
