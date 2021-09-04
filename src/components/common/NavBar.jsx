@@ -2,24 +2,51 @@ import React, { useState } from 'react';
 import '../../style/common/navBar.css';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import Modal from 'react-modal';
 
 const NavBar = () => {
-  const [sideBar, setSideBar] = useState(true);
+  const [sideBar, setSideBar] = useState(false);
 
-  const showSideBar = () => setSideBar(!sideBar);
+  const handleSideBar = () => setSideBar(!sideBar);
 
   return (
     <>
-      <div className="nav-bar">
-        <FaIcons.FaBars className="menu-bars" onClick={ showSideBar } />
-      </div>
-      <nav className={ sideBar ? 'nav-menu disabled' : 'nav-menu' }>
-        <AiIcons.AiOutlineClose className="close-menu" onClick={ showSideBar }/>
-        <a className="about-anchor" href="#about">Sobre mim</a>
-        <a className="skills-anchor" href="#skills">Habilidades</a>
-        <a className="projects-anchor" href="#projects">Projetos</a>
-        <a className="contact-anchor" href="#contact">Contato</a>
-      </nav>
+      <FaIcons.FaBars className="menu-bars" onClick={ handleSideBar } />
+      <Modal
+        className="nav-menu"
+        isOpen={ sideBar }
+        onRequestClose={ handleSideBar }
+      >
+        <AiIcons.AiOutlineClose className="close-menu" onClick={ handleSideBar }/>
+        <a
+          className="about-anchor"
+          href="#about"
+          onClick={ handleSideBar }
+        >
+          Sobre mim
+        </a>
+        <a
+          className="skills-anchor"
+          href="#skills"
+          onClick={ handleSideBar }
+        >
+          Habilidades
+        </a>
+        <a
+          className="projects-anchor"
+          href="#projects"
+          onClick={ handleSideBar }
+        >
+          Projetos
+        </a>
+        <a
+          className="contact-anchor"
+          href="#contact"
+          onClick={ handleSideBar }
+        >
+          Contato
+        </a>
+      </Modal>
     </>
   )
 };

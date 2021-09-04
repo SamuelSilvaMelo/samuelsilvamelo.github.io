@@ -3,6 +3,7 @@
   height: 80px;
   padding: 0 10px;
   position: absolute;
+  width: 100%;
   min-width: 360px;
 }
 
