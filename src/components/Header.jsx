@@ -1,22 +1,17 @@
 import React from 'react';
 import '../style/components/header.css'
+import { Link } from 'react-router-dom';
 import logo from '../img/logo.png'
+import NavBar from './common/NavBar';
 
 const Header = () => (
   <header className="main-header" id="home">
-    <nav className="nav-header">
-      <div>
-        <a className="logo-anchor" href="#home">
-            <img src={ logo } alt="Airplane icon with heart on the left side" />
-        </a>
-      </div>
-      <div>
-        <a className="about-anchor" href="#about">Sobre mim</a>
-        <a className="skills-anchor" href="#skills">Habilidades</a>
-        <a className="projects-anchor" href="#projects">Projetos</a>
-        <a className="contact-anchor" href="#contact">Contato</a>
-      </div>
-    </nav>
+    <div className="nav-header">
+      <Link className="logo-anchor" to="#home">
+          <img src={ logo } alt="Airplane icon with heart on the left side" />
+      </Link>
+      <NavBar />
+    </div>
   </header>
 );
 
