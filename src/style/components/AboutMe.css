@@ -1,0 +1,33 @@
+.about-me {
+  align-items: center;
+  background-color: #0C0316;
+  display: flex;
+  height: 100vh;
+  padding: 50px 100px;
+}
+
+.hobbies-img img {
+  height: auto;
+  width: 100%;
+}
+
+.about-me-div-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+  width: 80%;
+}
+
+.about-me-text p {
+  color: #FFFFFF;
+  font-family: Fira Code;
+  font-size: 24px;
+  margin: 35px 0;
+}
+
+.airplane-img {
+  align-self: center;
+  display: flex;
+	height: auto;
+  max-width:50%;
+}

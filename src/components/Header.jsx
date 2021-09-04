@@ -3,10 +3,10 @@ import '../style/components/header.css'
 import logo from '../img/logo.png'
 
 const Header = () => (
-  <header className="main-header">
+  <header className="main-header" id="home">
     <nav className="nav-header">
       <div>
-        <a className="logo-anchor" href="home">
+        <a className="logo-anchor" href="#home">
             <img src={ logo } alt="Airplane icon with heart on the left side" />
         </a>
       </div>
