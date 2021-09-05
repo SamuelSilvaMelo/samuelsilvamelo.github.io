@@ -29,6 +29,7 @@ const Skills = () => {
         {
           mySkills.map(({ imgPath, stackName}) => (
             <SkillCard
+              key={ stackName }
               imgPath={ imgPath }
               stackName={ stackName }
               setShowStackInfo={ setShowStackInfo }
