@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import '../../style/common/skillCard.css';
 
-const SkillCard = ({ imgPath, stackName, setShowStackInfo }) => {
+const SkillCard = ({ imgPath, stackName, setShowStackInfo, color }) => {
   const [showStackTag, setShowStacktag] = useState(false);
 
   return (
-    <div className="skill-card">
+    <div className={ `skill-card skill-card-${color}` }>
       <span
         className={
           showStackTag
@@ -35,6 +35,8 @@ const SkillCard = ({ imgPath, stackName, setShowStackInfo }) => {
 SkillCard.propTypes = {
   imgPath: PropTypes.string.isRequired,
   stackName: PropTypes.string.isRequired,
+  setShowStackInfo: PropTypes.func.isRequired,
+  color: PropTypes.string.isRequired,
 }
 
 export default SkillCard;

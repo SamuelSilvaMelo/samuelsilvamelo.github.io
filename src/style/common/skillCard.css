@@ -6,7 +6,6 @@
 }
 
 .skill-card div {
-  background-color: #0C0316;
   border-radius: 20%;
   display: flex;
   flex-direction: column;
@@ -15,6 +14,14 @@
   align-items: center;
   margin: 5px 10px;
   width: 90px;
+}
+
+.skill-card-purple div {
+  background-color: #0C0316;
+}
+
+.skill-card-dark div {
+  background-color: #15161A;
 }
 
 .hidden-stack-name {

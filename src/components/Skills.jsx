@@ -33,6 +33,7 @@ const Skills = () => {
               imgPath={ imgPath }
               stackName={ stackName }
               setShowStackInfo={ setShowStackInfo }
+              color="purple"
             />
           ))
         }
