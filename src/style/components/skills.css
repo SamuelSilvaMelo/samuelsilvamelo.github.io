@@ -1,0 +1,30 @@
+.my-skills-section {
+  background-color: #15161a;
+  min-height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  padding: 10px;
+}
+
+.my-skills-article h1 {
+  color: white;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.my-skills-article p {
+  color: #FFFFFF;
+  font-family: Fira Code;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.my-skills-purple-heart {
+  width: 10px;
+}
+
+.my-skills-info {
+  display: flex;
+  flex-wrap: wrap;
+}

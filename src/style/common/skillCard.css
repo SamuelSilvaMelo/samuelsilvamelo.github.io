@@ -1,0 +1,35 @@
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 110px;
+}
+
+.skill-card div {
+  background-color: #0C0316;
+  border-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  width: 90px;
+}
+
+.hidden-stack-name {
+  display: none;
+}
+
+.skill-card span {
+  position: relative;
+  bottom: -5px;
+  color: white;
+  font-family: Fira Code;
+  font-size: 0.8rem;
+}
+
+.skill-card div img {
+  padding: 5px;
+  width: 80px;
+}
