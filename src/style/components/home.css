@@ -6,13 +6,20 @@
   color: white;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   min-width: 360px;
-  padding: 0 10px 100px;
+  padding: 10px;
 }
 
-.welcome-page h1 {
+.welcome-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.welcome-message h1 {
   color: #22369b;
   display: flex;
   font-size: 2rem;
@@ -20,7 +27,7 @@
   font-weight: 500;
 }
 
-.welcome-page h3 {
+.welcome-message h3 {
   display: flex;
   color: #0f081a;
   font-size: 1rem;

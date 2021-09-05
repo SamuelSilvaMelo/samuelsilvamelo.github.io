@@ -2,6 +2,7 @@ import React from 'react';
 import '../style/components/AboutMe.css'
 import hobbies from '../img/hobbies-transparente.png'
 import airplane from '../img/aviao-sem-fundo.png';
+import DownArrow from './common/DownArrow';
 
 const AboutMe = () => (
   <section className="about-me" id="about">
@@ -16,6 +17,7 @@ const AboutMe = () => (
         </div>
         <img className="airplane-img" src={ airplane} alt="" />
     </div>
+    <DownArrow location="#skills" />
   </section>
 );
 

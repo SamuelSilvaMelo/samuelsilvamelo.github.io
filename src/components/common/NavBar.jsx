@@ -4,6 +4,8 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import Modal from 'react-modal';
 
+Modal.setAppElement('#root');
+
 const NavBar = () => {
   const [sideBar, setSideBar] = useState(false);
 
