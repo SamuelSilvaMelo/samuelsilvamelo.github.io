@@ -1,6 +1,6 @@
 .down-arrow {
   align-self: center;
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 

@@ -10,13 +10,14 @@
   justify-content: center;
   min-width: 360px;
   padding: 10px;
+  position: relative;
+  z-index: -1;
 }
 
 .welcome-message {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 2;
 }
 
 .welcome-message h1 {

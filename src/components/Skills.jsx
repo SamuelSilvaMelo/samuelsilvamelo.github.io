@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../style/components/skills.css'
 import SkillCard from './common/SkillCard';
 import mySkills from '../data/my-skills';
+import DownArrow from './common/DownArrow';
 
 const Skills = () => {
   const [showStackInfo, setShowStackInfo] = useState('')
@@ -38,6 +39,7 @@ const Skills = () => {
           ))
         }
       </article>
+      <DownArrow location="#to-learn" />
     </section>
   );
 };
