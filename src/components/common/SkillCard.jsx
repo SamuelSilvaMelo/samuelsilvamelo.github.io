@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import '../../style/common/skillCard.css';
 
-const SkillCard = ({ imgPath, imgAlt }) => {
+const SkillCard = ({ imgPath, stackName }) => {
   const [showStackTag, setShowStacktag] = useState(false);
 
   return (
@@ -14,13 +14,13 @@ const SkillCard = ({ imgPath, imgAlt }) => {
           : 'hidden-stack-name'
         }
       >
-        { imgAlt.split('-Logo') }
+        { stackName }
       </span>
       <div
         onMouseEnter={ () => setShowStacktag(true) }
         onMouseLeave={ () => setShowStacktag(false)}
       >
-        <img src={ imgPath } alt={ imgAlt } />
+        <img src={ imgPath } alt={ `${stackName}-Logo` } />
       </div>
     </div>
   )
@@ -28,7 +28,7 @@ const SkillCard = ({ imgPath, imgAlt }) => {
 
 SkillCard.propTypes = {
   imgPath: PropTypes.string.isRequired,
-  imgAlt: PropTypes.string.isRequired,
+  stackName: PropTypes.string.isRequired,
 }
 
 export default SkillCard;
