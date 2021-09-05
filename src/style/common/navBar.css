@@ -14,7 +14,7 @@
 	top: 0;
 }
 
-.about-anchor, .skills-anchor, .projects-anchor, .contact-anchor {
+.nav-option {
 	color: white;
 	font-size: 1rem;
 	font-weight: 500;
@@ -22,7 +22,7 @@
 	text-decoration: none;
 }
   
-.about-anchor:hover, .skills-anchor:hover, .projects-anchor:hover, .contact-anchor:hover {
+.nav-option:hover {
 	border-bottom: solid #AA24C0;
 	border-radius: 2px;
 }

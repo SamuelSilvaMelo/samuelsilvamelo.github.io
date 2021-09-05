@@ -3,6 +3,7 @@ import '../../style/common/navBar.css';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import Modal from 'react-modal';
+import navBarOptions from '../../data/nav-bar-options';
 
 Modal.setAppElement('#root');
 
@@ -20,34 +21,18 @@ const NavBar = () => {
         onRequestClose={ handleSideBar }
       >
         <AiIcons.AiOutlineClose className="close-menu" onClick={ handleSideBar }/>
-        <a
-          className="about-anchor"
-          href="#about"
-          onClick={ handleSideBar }
-        >
-          Sobre mim
-        </a>
-        <a
-          className="skills-anchor"
-          href="#skills"
-          onClick={ handleSideBar }
-        >
-          Habilidades
-        </a>
-        <a
-          className="projects-anchor"
-          href="#projects"
-          onClick={ handleSideBar }
-        >
-          Projetos
-        </a>
-        <a
-          className="contact-anchor"
-          href="#contact"
-          onClick={ handleSideBar }
-        >
-          Contato
-        </a>
+        {
+          navBarOptions.map(({ option, href }) => (
+            <a
+              className="nav-option"
+              href={ href }
+              key={ option }
+              onClick={ handleSideBar }
+            >
+              { option }
+            </a>
+          ))
+        }
       </Modal>
     </>
   )

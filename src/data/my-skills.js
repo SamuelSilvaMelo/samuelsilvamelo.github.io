@@ -45,7 +45,7 @@ const mySkills = [
       <p>O HTML é uma linguagem de marcação (não de programação &#128541;) de código utilizada na construção de páginas Web. É o esqueleto dessa página aqui, por exemplo.</p>
       <p>
         <strong>Tempo de Experiência: </strong>
-        7 mêses.
+        6 mêses.
       </p>
     </>
   },
@@ -57,7 +57,7 @@ const mySkills = [
       <p>O CSS é, digamos, a aparência de uma aplicação Web! Consiste em uma linguagem que permite a estilização é possui uma hierarquia de "cascata".</p>
       <p>
         <strong>Tempo de Experiência: </strong>
-        7 mêses.
+        6 mêses.
       </p>
     </>
   },
@@ -69,7 +69,7 @@ const mySkills = [
       <p>O JavaScript &#128155; é uma linguagem de programação de alto nível. É possível fazer muita coisa com ela, entre elas dar vida e responsividade à uma aplicação Web.</p>
       <p>
         <strong>Tempo de Experiência: </strong>
-        7 mêses.
+        6 mêses.
       </p>
     </>
   },
@@ -117,7 +117,7 @@ const mySkills = [
       <p>O Redux é uma biblioteca para armazenamento de estados (informações) de aplicações JavaScript. É muito usado com o React.</p>
       <p>
         <strong>Tempo de Experiência: </strong>
-        4 mêses.
+        3 mêses.
       </p>
     </>
   }
