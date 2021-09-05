@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import '../../style/common/skillCard.css';
 
-const SkillCard = ({ imgPath, stackName }) => {
+const SkillCard = ({ imgPath, stackName, setShowStackInfo }) => {
   const [showStackTag, setShowStacktag] = useState(false);
 
   return (
@@ -17,8 +17,14 @@ const SkillCard = ({ imgPath, stackName }) => {
         { stackName }
       </span>
       <div
-        onMouseEnter={ () => setShowStacktag(true) }
-        onMouseLeave={ () => setShowStacktag(false)}
+        onMouseEnter={ () => {
+          setShowStacktag(true)
+          setShowStackInfo(stackName)
+        } }
+        onMouseLeave={ () => {
+          setShowStacktag(false)
+          setShowStackInfo('')
+        } }
       >
         <img src={ imgPath } alt={ `${stackName}-Logo` } />
       </div>

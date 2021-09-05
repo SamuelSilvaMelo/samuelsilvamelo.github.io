@@ -6,6 +6,10 @@
   padding: 10px;
 }
 
+.my-skills-article {
+  min-height: 170px;
+}
+
 .my-skills-article h1 {
   color: white;
   font-size: 1.9rem;
