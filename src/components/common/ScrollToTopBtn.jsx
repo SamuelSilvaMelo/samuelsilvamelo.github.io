@@ -2,7 +2,7 @@ import React from 'react';
 import '../../style/common/backToTopBtn.css';
 import * as RiIcons from 'react-icons/ri';
 
-const BackToTopBtn = () => {
+const ScrollToTopBtn = () => {
   return (
     <div
       className="scroll-top"
@@ -14,4 +14,4 @@ const BackToTopBtn = () => {
   )
 }
 
-export default BackToTopBtn;
+export default ScrollToTopBtn;

@@ -19,7 +19,7 @@ const ContactBtn = ({ link, img, name }) => (
 ContactBtn.propTypes = {
   link: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
-  nam: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 };
 
 export default ContactBtn;

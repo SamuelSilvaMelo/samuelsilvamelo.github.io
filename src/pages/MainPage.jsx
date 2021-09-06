@@ -7,7 +7,7 @@ import SkillsToLearn from '../components/SkillsToLearn';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import BackToTopBtn from '../components/common/BackToTopBtn';
+import ScrollToTopBtn from '../components/common/ScrollToTopBtn';
 
 const MainPage = () => (
   <>
@@ -20,7 +20,7 @@ const MainPage = () => (
       <Projects />
       <Contact />
     </main>
-    <BackToTopBtn />
+    <ScrollToTopBtn />
     <Footer />
   </>
 );

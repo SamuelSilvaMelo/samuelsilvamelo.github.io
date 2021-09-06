@@ -13,6 +13,7 @@ const Contact = () => (
       {
         contactData.map(({ link, img, name }) => (
           <ContactBtn
+            key={ name }
             link={ link }
             img={ img }
             name={ name }
