@@ -6,7 +6,7 @@
   flex-direction: column;
   min-height: 80vh;
   min-width: 360px;
-  padding: 10px;
+  padding: 30px 10px;
   position: relative;
   width: 100%;
 }
@@ -28,6 +28,7 @@
 .contact-btns-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contact-btn {
@@ -38,9 +39,9 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  text-decoration: none;
   margin: 10px;
   padding: 10px;
+  text-decoration: none;
   width: 150px;
 }
 
@@ -50,14 +51,14 @@
 }
 
 .tin-can-phone {
-  flex-grow: 1;
   align-self: center;
+  flex-grow: 1;
 }
 
 .tin-can-phone img {
   height: auto;
-  margin-top: 50%;
   margin-bottom: 50%;
+  margin-top: 50%;
   max-width: 340px;
 }
 

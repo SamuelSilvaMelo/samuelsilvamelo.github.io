@@ -4,9 +4,9 @@
   flex-direction: column;
   min-height: 80vh;
   min-width: 360px;
-  width: 100%;
-  padding: 10px;
+  padding: 30px 10px;
   position: relative;
+  width: 100%;
 }
 
 .my-skills-article {
@@ -32,13 +32,15 @@
 }
 
 .my-skills-info {
+  align-self: center;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 545px;
-  align-self: center;
 }
 
 @media only screen and (min-width: 990px) {
+
   .my-skills-section {
     justify-content: center;
   }
@@ -52,8 +54,9 @@
   }
 
   .my-skills-article {
+    align-self: center;
     max-width: 945px;
     width: 100%;
-    align-self: center;
   }
+
 }

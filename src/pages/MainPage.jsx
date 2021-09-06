@@ -11,12 +11,14 @@ import Footer from '../components/Footer';
 const MainPage = () => (
   <>
     <Header />
-    <Home />
-    <AboutMe />
-    <Skills />
-    <SkillsToLearn />
-    <Projects />
-    <Contact />
+    <main>
+      <Home />
+      <AboutMe />
+      <Skills />
+      <SkillsToLearn />
+      <Projects />
+      <Contact />
+    </main>
     <Footer />
   </>
 );

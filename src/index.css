@@ -4,3 +4,7 @@
   padding: 0px;
   font-family: 'Fira Code', monospace, 'Roboto Mono', monospace, 'Source Code Pro', monospace;
 }
+
+main {
+  min-width: 360px;
+}

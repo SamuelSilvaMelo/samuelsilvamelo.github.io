@@ -6,10 +6,10 @@
   color: white;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: center;
+  min-height: 100vh;
   min-width: 360px;
-  padding: 10px;
+  padding: 30px 10px;
   position: relative;
   z-index: -1;
 }
@@ -20,16 +20,16 @@
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
-  max-width: 1300px;
   margin: auto;
+  max-width: 1300px;
 }
 
 .welcome-message h3 {
-  display: flex;
   color: #0f081a;
+  display: flex;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  max-width: 1300px;
   margin: auto;
+  max-width: 1300px;
 }
