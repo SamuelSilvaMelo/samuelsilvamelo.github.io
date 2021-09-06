@@ -14,18 +14,14 @@
   z-index: -1;
 }
 
-.welcome-message {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .welcome-message h1 {
   color: #22369b;
   display: flex;
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .welcome-message h3 {
@@ -34,4 +30,6 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
+  max-width: 1300px;
+  margin: auto;
 }
