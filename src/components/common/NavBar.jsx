@@ -16,7 +16,7 @@ const NavBar = () => {
     <>
       <FaIcons.FaBars className="menu-bars" onClick={ handleSideBar } />
       <Modal
-        className="nav-menu"
+        className="nav-menu mobile"
         isOpen={ sideBar }
         onRequestClose={ handleSideBar }
       >
@@ -34,6 +34,19 @@ const NavBar = () => {
           ))
         }
       </Modal>
+      <nav className="nav-menu desktop">
+        {
+          navBarOptions.map(({ option, href }) => (
+            <a
+              className="nav-option"
+              href={ href }
+              key={ option }
+            >
+              { option }
+            </a>
+          ))
+        }
+      </nav>
     </>
   )
 };
