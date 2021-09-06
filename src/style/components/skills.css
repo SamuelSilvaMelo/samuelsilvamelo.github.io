@@ -2,7 +2,7 @@
   background-color: #15161a;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
   min-width: 360px;
   width: 100%;
   padding: 10px;
@@ -34,4 +34,18 @@
 .my-skills-info {
   display: flex;
   flex-wrap: wrap;
+  max-width: 545px;
+  align-self: center;
+}
+
+@media only screen and (min-width: 990px) {
+  .my-skills-section {
+    justify-content: center;
+  }
+
+  .my-skills-article {
+    max-width: 945px;
+    width: 100%;
+    align-self: center;
+  }
 }
