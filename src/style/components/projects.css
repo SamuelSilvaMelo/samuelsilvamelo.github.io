@@ -1,0 +1,17 @@
+.project-content {
+  background-color: #15161A;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+.project-content h1 {
+  color: white;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+}

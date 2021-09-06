@@ -4,6 +4,7 @@ import Home from '../components/Home';
 import AboutMe from '../components/AboutMe';
 import Skills from '../components/Skills';
 import SkillsToLearn from '../components/SkillsToLearn';
+import Projects from '../components/Projects';
 
 const MainPage = () => (
   <div>
@@ -12,6 +13,7 @@ const MainPage = () => (
     <AboutMe />
     <Skills />
     <SkillsToLearn />
+    <Projects />
   </div>
 );
 
