@@ -38,6 +38,14 @@
     justify-content: center;
   }
 
+  .skills-to-learn-article h1 {
+    font-size: 2rem;
+  }
+
+  .skills-to-learn-article p {
+    font-size: 1rem;
+  }
+
   .skills-to-learn-article {
     max-width: 945px;
     width: 100%;

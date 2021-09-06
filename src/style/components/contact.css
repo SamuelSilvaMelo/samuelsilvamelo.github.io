@@ -4,7 +4,7 @@
   background-color: #0C0316;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
   min-width: 360px;
   padding: 10px;
   position: relative;
@@ -22,7 +22,7 @@
   color: #FFFFFF;
   font-family: Fira Code;
   font-size: 0.8rem;
-  margin: 10px 0;
+  margin: 50px 0;
 }
 
 .contact-btns-content {

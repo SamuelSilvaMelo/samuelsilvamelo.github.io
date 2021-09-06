@@ -43,6 +43,14 @@
     justify-content: center;
   }
 
+  .my-skills-article h1 {
+    font-size: 2rem;
+  }
+
+  .my-skills-article p {
+    font-size: 1rem;
+  }
+
   .my-skills-article {
     max-width: 945px;
     width: 100%;
