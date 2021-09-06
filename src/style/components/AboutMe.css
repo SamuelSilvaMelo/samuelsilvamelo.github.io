@@ -9,6 +9,12 @@
   position: relative;
 }
 
+.about-me-article-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hobbies-img img {
   height: auto;
   max-width: 340px;
@@ -31,5 +37,39 @@
   align-self: center;
   display: none;
 	height: auto;
-  max-width:50%;
+  width: 40%;
+}
+
+@media only screen and (min-width: 990px) {
+  .about-me {
+    justify-content: center;
+  }
+
+  .about-me-article-content {
+    flex-direction: row;
+    max-width: 1300px;
+  }
+
+  .hobbies-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .hobbies-img img {
+    max-width: 90%;
+  }
+
+  .about-me-div-content {
+    width: 50%;
+  }
+
+  .about-me-text p {
+    font-size: 1rem;
+  }
+
+  .airplane-img {
+    display: block;
+    width: 80%;
+  }
 }
