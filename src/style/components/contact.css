@@ -1,0 +1,62 @@
+.contact-content {
+  align-items: center;
+  align-self: center;
+  background-color: #0C0316;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 360px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-content h1 {
+  color: white;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.contact-content p {
+  color: #FFFFFF;
+  font-family: Fira Code;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.contact-btns-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  align-items: center;
+  background-color: #132958;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+}
+
+.contact-btn img {
+  margin-right: 5px;
+  width: 40px;
+}
+
+.tin-can-phone {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.tin-can-phone img {
+  height: auto;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  max-width: 340px;
+}

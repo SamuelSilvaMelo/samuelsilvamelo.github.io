@@ -5,16 +5,20 @@ import AboutMe from '../components/AboutMe';
 import Skills from '../components/Skills';
 import SkillsToLearn from '../components/SkillsToLearn';
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const MainPage = () => (
-  <div>
+  <>
     <Header />
     <Home />
     <AboutMe />
     <Skills />
     <SkillsToLearn />
     <Projects />
-  </div>
+    <Contact />
+    <Footer />
+  </>
 );
 
 export default MainPage;
