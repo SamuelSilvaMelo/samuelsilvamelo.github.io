@@ -42,7 +42,7 @@ const SkillsToLearn = () => {
           ))
         }
       </article>
-      <DownArrow />
+      <DownArrow location="#projects"/>
     </section>
   );
 };

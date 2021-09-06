@@ -10,7 +10,6 @@
   min-height: 100vh;
   min-width: 360px;
   padding: 30px 10px;
-  position: relative;
   z-index: -1;
 }
 

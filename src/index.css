@@ -5,6 +5,10 @@
   font-family: 'Fira Code', monospace, 'Roboto Mono', monospace, 'Source Code Pro', monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   min-width: 360px;
 }
