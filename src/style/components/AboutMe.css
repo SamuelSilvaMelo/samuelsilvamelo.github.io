@@ -34,8 +34,11 @@
 }
 
 .airplane-img {
-  align-self: center;
   display: none;
+  justify-self: center;
+}
+
+.airplane-img img {
 	height: auto;
   width: 40%;
 }
@@ -51,8 +54,6 @@
   }
 
   .hobbies-img {
-    display: flex;
-    justify-content: center;
     width: 50%;
   }
 
@@ -69,7 +70,11 @@
   }
 
   .airplane-img {
-    display: block;
+    display: flex;
+    justify-content: center;
+  }
+
+  .airplane-img img {
     width: 80%;
   }
 }

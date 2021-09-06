@@ -60,3 +60,15 @@
   margin-bottom: 50%;
   max-width: 340px;
 }
+
+@media only screen and (min-width: 990px) {
+  
+  .contact-content h1 {
+    font-size: 2rem;
+  }
+
+  .contact-content p {
+    font-size: 1rem;
+  }
+  
+}

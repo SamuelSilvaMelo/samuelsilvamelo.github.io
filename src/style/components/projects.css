@@ -17,3 +17,11 @@
   font-style: normal;
   font-weight: 500;
 }
+
+@media only screen and (min-width: 990px) {
+
+  .project-content h1 {
+    font-size: 2rem;
+  }
+
+}

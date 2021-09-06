@@ -3,6 +3,7 @@ import '../style/components/contact.css';
 import contactData from '../data/contact-data';
 import ContactBtn from './common/ContactBtn';
 import tinCanPhone from '../img/tin-can-phone.png'
+import Tilt from 'react-parallax-tilt';
 
 const Contact = () => (
   <section className="contact-content" id="contact">
@@ -19,12 +20,12 @@ const Contact = () => (
         ))
       }
     </div>
-    <div className="tin-can-phone">
+    <Tilt className="tin-can-phone">
       <img
         src={ tinCanPhone }
         alt="Telefone Sem Fio"
       />
-    </div>
+    </Tilt>
   </section>
 );
 
