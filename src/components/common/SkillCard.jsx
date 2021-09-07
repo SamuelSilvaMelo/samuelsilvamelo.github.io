@@ -6,7 +6,7 @@ const SkillCard = ({ imgPath, stackName, setShowStackInfo, color }) => {
   const [showStackTag, setShowStacktag] = useState(false);
 
   return (
-    <div className={ `skill-card skill-card-${color}` }>
+    <div data-aos="fade-down" className={ `skill-card skill-card-${color}` }>
       <span
         className={
           showStackTag

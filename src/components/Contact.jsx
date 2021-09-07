@@ -7,8 +7,8 @@ import Tilt from 'react-parallax-tilt';
 
 const Contact = () => (
   <section className="contact-content" id="contact">
-    <h1>Contato</h1>
-    <p>Gostou do meu trabalho ou ficou com alguma dúvida? Por favor, entre em contato!</p>
+    <h1 data-aos="fade-down">Contato</h1>
+    <p data-aos="fade-down">Gostou do meu trabalho ou ficou com alguma dúvida? Por favor, entre em contato!</p>
     <div className="contact-btns-content">
       {
         contactData.map(({ link, img, name }) => (
@@ -23,6 +23,7 @@ const Contact = () => (
     </div>
     <Tilt className="tin-can-phone">
       <img
+        data-aos="fade-down"
         src={ tinCanPhone }
         alt="Telefone Sem Fio"
       />

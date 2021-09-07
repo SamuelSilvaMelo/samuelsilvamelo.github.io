@@ -9,7 +9,7 @@ const Skills = () => {
 
   return (
     <section className="my-skills-section" id="skills">
-      <article className="my-skills-article">
+      <article data-aos="fade-down" className="my-skills-article">
         <h1>Minhas Habilidades</h1>
         {
           (!showStackInfo)

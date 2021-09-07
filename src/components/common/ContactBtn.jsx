@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const ContactBtn = ({ link, img, name }) => (
   <a
     className="contact-btn"
+    data-aos="fade-down"
     href={ link }
     target="_blank"
     rel="noreferrer"

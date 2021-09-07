@@ -9,7 +9,7 @@ const SkillsToLearn = () => {
 
   return (
     <section className="skills-to-learn-section" id="to-learn">
-      <article className="skills-to-learn-article">
+      <article data-aos="fade-down" className="skills-to-learn-article">
         <h1>Vou aprender isso em breve!</h1>
         {
           (!showStackInfo)
