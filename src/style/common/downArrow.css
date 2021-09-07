@@ -1,0 +1,9 @@
+.down-arrow {
+  align-self: center;
+  bottom: 0;
+  position: absolute;
+}
+
+.down-arrow img {
+	width: 50px;
+}

@@ -1,0 +1,82 @@
+.about-me {
+  align-items: center;
+  background-color: #0C0316;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  min-width: 360px;
+  padding: 30px 10px;
+  position: relative;
+}
+
+.about-me-article-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies-img img {
+  height: auto;
+  max-width: 340px;
+}
+
+.about-me-div-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.about-me-text p {
+  color: #FFFFFF;
+  font-family: Fira Code;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.airplane-img {
+  display: none;
+  justify-self: center;
+}
+
+.airplane-img img {
+	height: auto;
+  width: 40%;
+}
+
+@media only screen and (min-width: 990px) {
+
+  .about-me {
+    justify-content: center;
+  }
+
+  .about-me-article-content {
+    flex-direction: row;
+    max-width: 1300px;
+  }
+
+  .hobbies-img {
+    width: 50%;
+  }
+
+  .hobbies-img img {
+    max-width: 90%;
+  }
+
+  .about-me-div-content {
+    width: 50%;
+  }
+
+  .about-me-text p {
+    font-size: 1rem;
+  }
+
+  .airplane-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .airplane-img img {
+    width: 80%;
+  }
+  
+}

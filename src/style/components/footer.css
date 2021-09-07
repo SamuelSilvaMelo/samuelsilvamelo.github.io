@@ -1,0 +1,15 @@
+footer {
+  background-color: #0C0316;
+  position: relative;
+  bottom: 0;
+  min-width: 360px;
+  padding: 10px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: Fira Code;
+  font-size: 0.6rem;
+}

@@ -1,0 +1,21 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0C0316;
+  border-radius: 20px;
+  margin: 0 15px;
+  align-self: center;
+  padding: 10px;
+  height: min-content;
+}
+
+.project-card h3 {
+  text-align: center;
+  color: white;
+}
+
+.project-card img {
+  padding: 10px;
+  width: 250px;
+}
