@@ -2,22 +2,6 @@ import React from 'react';
 
 const skillsToLearn = [
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/mysql/mysql-plain-wordmark.svg',
-    stackName: 'MySQL',
-    info:
-    <>
-      <p>O MySQL é um sistema de gerenciamento de banco de dados que funciona utilizando a linguagem SQL como interface. É um dos sistemas mais populares com mais de 10 milhões de instalações no mundo.</p>
-    </>
-  },
-  {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/mongodb/mongodb-original-wordmark.svg',
-    stackName: 'MongoDB',
-    info:
-    <>
-      <p>O MongoDB é um banco de dados NoSQL. Apresenta uma alta performance, escalabilidade e flexibilidade.</p>
-    </>
-  },
-  {
     imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/nodejs/nodejs-original-wordmark.svg',
     stackName: 'NodeJS',
     info:
