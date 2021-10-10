@@ -1,7 +1,7 @@
 import LinkedinLogo from '../img/linkedin.png';
 import EmailLogo from '../img/outlook.png';
 import GitHubLogo from '../img/github.png';
-import InstagramLogo from '../img/instagram.png';
+import TelegramLogo from '../img/telegram.png';
 
 const contactData = [
   {
@@ -20,9 +20,9 @@ const contactData = [
     img: GitHubLogo,
   },
   {
-    name: 'Instagram',
-    link: 'https://www.instagram.com/samuelmelloo/',
-    img: InstagramLogo,
+    name: 'Telegram',
+    link: 'https://t.me/SamuelMelo',
+    img: TelegramLogo,
   },
 ];
 
