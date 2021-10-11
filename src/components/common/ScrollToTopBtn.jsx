@@ -23,7 +23,11 @@ const ScrollToTopBtn = () => {
 
   return (
     <div
-      className={ visible ? "scroll-top" : "scroll-top-disabled" }
+      className={
+        visible
+        ? "scroll-top scroll-top-enabled"
+        : "scroll-top scroll-top-disabled"
+      }
       onClick={ scrollToTop }
     >
       <a href="#home">

@@ -1,28 +1,30 @@
-import LinkedinLogo from '../img/linkedin.png';
-import EmailLogo from '../img/outlook.png';
-import GitHubLogo from '../img/github.png';
-import InstagramLogo from '../img/instagram.png';
+import {
+  linkedinLogo,
+  emailLogo,
+  whiteGitHubLogo,
+  telegramLogo
+}from '../img';
 
 const contactData = [
   {
     name: 'Linkedin',
     link: 'https://www.linkedin.com/in/samuel-silva-melo/',
-    img: LinkedinLogo,
+    img: linkedinLogo,
   },
   {
     name: 'Email',
     link: 'mailto:samuel.silva.melo@hotmail.com',
-    img: EmailLogo,
+    img: emailLogo,
   },
   {
     name: 'GitHub',
     link: 'https://github.com/SamuelSilvaMelo',
-    img: GitHubLogo,
+    img: whiteGitHubLogo,
   },
   {
-    name: 'Instagram',
-    link: 'https://www.instagram.com/samuelmelloo/',
-    img: InstagramLogo,
+    name: 'Telegram',
+    link: 'https://t.me/SamuelMelo',
+    img: telegramLogo,
   },
 ];
 

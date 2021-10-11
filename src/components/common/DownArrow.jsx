@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import downArrow from '../../img/down-arrow.png'
+import { downArrow } from '../../img'
 import '../../style/common/downArrow.css'
 
 const DownArrow = ({ location }) => (

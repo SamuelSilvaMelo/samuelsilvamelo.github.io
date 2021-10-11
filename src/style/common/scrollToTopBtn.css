@@ -14,6 +14,16 @@
   width: 40px;
 }
 
+.scroll-top-enabled {
+  opacity: 1;
+  transition: 0.7s ease-in-out;
+}
+
+.scroll-top-disabled {
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
 @media screen and (max-width: 1000px) {
 
   .scroll-top {

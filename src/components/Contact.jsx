@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/components/contact.css';
 import contactData from '../data/contact-data';
 import ContactBtn from './common/ContactBtn';
-import tinCanPhone from '../img/tin-can-phone.png'
+import { tinCanPhone } from '../img'
 import Tilt from 'react-parallax-tilt';
 
 const Contact = () => (
