@@ -1,9 +1,23 @@
 import React from 'react';
 import calculateExperienceTime from '../utils/calculateExperienceTime';
+import {
+  bashLogo,
+  gitLogo,
+  gitHubLogo,
+  html5Logo,
+  css3Logo,
+  javaScriptLogo,
+  jestLogo,
+  reactLogo,
+  rtlLogo,
+  reduxLogo,
+  mySQLLogo,
+  mongoDBLogo,
+} from '../img'
 
 const mySkills = [
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/bash/bash-original.svg',
+    imgPath: bashLogo,
     stackName: 'Bash',
     info:
     <>
@@ -15,7 +29,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/git/git-plain.svg',
+    imgPath: gitLogo,
     stackName: 'Git',
     info:
     <>
@@ -27,7 +41,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/github/github-original.svg',
+    imgPath: gitHubLogo,
     stackName: 'GitHub',
     info:
     <>
@@ -39,7 +53,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/html5/html5-original.svg',
+    imgPath: html5Logo,
     stackName: 'HTML',
     info:
     <>
@@ -51,7 +65,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/css3/css3-original.svg',
+    imgPath: css3Logo,
     stackName: 'CSS',
     info:
     <>
@@ -63,7 +77,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/javascript/javascript-plain.svg',
+    imgPath: javaScriptLogo,
     stackName: 'JavaScript',
     info:
     <>
@@ -75,7 +89,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/jest/jest-plain.svg',
+    imgPath: jestLogo,
     stackName: 'Jest',
     info:
     <>
@@ -87,7 +101,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/react/react-original.svg',
+    imgPath: reactLogo,
     stackName: 'React.js',
     info:
     <>
@@ -99,7 +113,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://i.imgur.com/wbRSD1i.png',
+    imgPath: rtlLogo,
     stackName: 'RTL',
     info:
     <>
@@ -111,7 +125,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/redux/redux-original.svg',
+    imgPath: reduxLogo,
     stackName: 'Redux',
     info:
     <>
@@ -123,7 +137,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/mysql/mysql-plain-wordmark.svg',
+    imgPath: mySQLLogo,
     stackName: 'MySQL',
     info:
     <>
@@ -135,7 +149,7 @@ const mySkills = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/mongodb/mongodb-original-wordmark.svg',
+    imgPath: mongoDBLogo,
     stackName: 'MongoDB',
     info:
     <>

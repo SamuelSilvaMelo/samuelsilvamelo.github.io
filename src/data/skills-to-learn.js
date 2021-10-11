@@ -1,8 +1,14 @@
 import React from 'react';
+import {
+  nodeLogo,
+  pythonLogo,
+  cSharpLogo,
+  dotNetLogo,
+} from '../img'
 
 const skillsToLearn = [
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/nodejs/nodejs-original-wordmark.svg',
+    imgPath: nodeLogo,
     stackName: 'NodeJS',
     info:
     <>
@@ -10,7 +16,7 @@ const skillsToLearn = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/python/python-original.svg',
+    imgPath: pythonLogo,
     stackName: 'Python',
     info:
     <>
@@ -18,7 +24,7 @@ const skillsToLearn = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/csharp/csharp-original.svg',
+    imgPath: cSharpLogo,
     stackName: 'C#',
     info:
     <>
@@ -26,7 +32,7 @@ const skillsToLearn = [
     </>
   },
   {
-    imgPath: 'https://raw.githubusercontent.com/devicons/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/dot-net/dot-net-original.svg',
+    imgPath: dotNetLogo,
     stackName: '.NET',
     info:
     <>
