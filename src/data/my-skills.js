@@ -13,6 +13,7 @@ import {
   reduxLogo,
   mySQLLogo,
   mongoDBLogo,
+  nodeLogo,
 } from '../img'
 
 const mySkills = [
@@ -157,6 +158,18 @@ const mySkills = [
       <p>
         <strong>Tempo de Experiência: </strong>
         { calculateExperienceTime('2021-09-22') } mêses.
+      </p>
+    </>
+  },
+  {
+    imgPath: nodeLogo,
+    stackName: 'NodeJS',
+    info:
+    <>
+      <p>O NodeJS é um interpretador de JavaScript que permite a sua interpretação fora do navegador Web. Aqui vou aprender sua utilização no Back-End.</p>
+      <p>
+        <strong>Tempo de Experiência: </strong>
+        { calculateExperienceTime('2021-10-05') } mêses.
       </p>
     </>
   }

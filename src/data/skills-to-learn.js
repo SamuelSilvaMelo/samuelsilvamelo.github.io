@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  nodeLogo,
+  typeScriptLogo,
   pythonLogo,
   cSharpLogo,
   dotNetLogo,
@@ -8,11 +8,11 @@ import {
 
 const skillsToLearn = [
   {
-    imgPath: nodeLogo,
-    stackName: 'NodeJS',
+    imgPath: typeScriptLogo,
+    stackName: 'TypeScript',
     info:
     <>
-      <p>O NodeJS é um interpretador de JavaScript que permite a sua interpretação fora do navegador Web. Aqui vou aprender sua utilização no Back-End.</p>
+      <p>O TypeScript é um superconjunto sintático de JavaScript que adiciona tipagem estática à linguagem.</p>
     </>
   },
   {
