@@ -166,7 +166,7 @@ const mySkills = [
     stackName: 'NodeJS',
     info:
     <>
-      <p>O NodeJS é um interpretador de JavaScript que permite a sua interpretação fora do navegador Web. Aqui vou aprender sua utilização no Back-End.</p>
+      <p>O NodeJS é um interpretador de JavaScript que permite a sua execução fora do navegador Web. Pode ser utilizado para a construção de APIs poderosas juntamente com o Express.</p>
       <p>
         <strong>Tempo de Experiência: </strong>
         { calculateExperienceTime('2021-10-05') } mêses.
