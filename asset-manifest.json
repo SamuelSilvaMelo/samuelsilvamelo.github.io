@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0de1641f.chunk.css",
-    "main.js": "/static/js/main.3de7a915.chunk.js",
-    "main.js.map": "/static/js/main.3de7a915.chunk.js.map",
+    "main.js": "/static/js/main.b4f716a1.chunk.js",
+    "main.js.map": "/static/js/main.b4f716a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.854219e5.js",
     "runtime-main.js.map": "/static/js/runtime-main.854219e5.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -42,13 +42,14 @@
     "static/media/search-zip-code.1a76421b.png": "/static/media/search-zip-code.1a76421b.png",
     "static/media/telegram.aae7141f.png": "/static/media/telegram.aae7141f.png",
     "static/media/tin-can-phone.d75e3ae2.png": "/static/media/tin-can-phone.d75e3ae2.png",
-    "static/media/trivia-react-redux.9054b7eb.png": "/static/media/trivia-react-redux.9054b7eb.png"
+    "static/media/trivia-react-redux.9054b7eb.png": "/static/media/trivia-react-redux.9054b7eb.png",
+    "static/media/typescript.8d9549db.svg": "/static/media/typescript.8d9549db.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.854219e5.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.3b28382a.chunk.js",
     "static/css/main.0de1641f.chunk.css",
-    "static/js/main.3de7a915.chunk.js"
+    "static/js/main.b4f716a1.chunk.js"
   ]
 }
