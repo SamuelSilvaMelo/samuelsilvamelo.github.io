@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   typeScriptLogo,
+  dockerLogo,
   pythonLogo,
   cSharpLogo,
   dotNetLogo,
@@ -13,6 +14,14 @@ const skillsToLearn = [
     info:
     <>
       <p>O TypeScript é um superconjunto sintático de JavaScript que adiciona tipagem estática à linguagem.</p>
+    </>
+  },
+  {
+    imgPath: dockerLogo,
+    stackName: 'Docker',
+    info:
+    <>
+      <p>O Docker é um produto que utiliza a virtualização de um sistema operacional para execução de softwares em pacotes padronizados chamados <i>contêineres</i>.</p>
     </>
   },
   {
@@ -36,7 +45,7 @@ const skillsToLearn = [
     stackName: '.NET',
     info:
     <>
-      <p>É um Framework criado pela Microsoft. Totalmente orientado à objetos, muito utilizado no desenvolvimento Web mas pode ser utilizado em outros sistemas.</p>
+      <p>É um Framework criado pela Microsoft. Totalmente orientado à objetos, muito utilizado no desenvolvimento Web, mas pode ser utilizado em outros sistemas.</p>
     </>
   },
 ];
