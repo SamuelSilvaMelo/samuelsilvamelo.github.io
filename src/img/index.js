@@ -29,3 +29,5 @@ export { default as redirect } from './redirect.png';
 export { default as triviaReactRedux } from './trivia-react-redux.png';
 export { default as searchGitHubUsers } from './search-github-users.png';
 export { default as searchZipCode } from './search-zip-code.png';
+export { default as typeScriptLogo } from './typescript.svg';
+export { default as dockerLogo } from './docker.svg';
